@@ -164,6 +164,7 @@ nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 280px;
+    min-height: 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
     cursor: pointer;
@@ -213,6 +214,8 @@ nav ul li a:hover {
     line-height: 1.6;
     padding: 10px;
     animation: fadeIn 0.5s forwards;
+    height: 400px;
+    overflow-y : auto;   /* Probably overkill, but scroll if it exceeds fixed height above ^ */
 }
 
 
