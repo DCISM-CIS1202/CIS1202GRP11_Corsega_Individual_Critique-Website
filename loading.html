@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Para Chuy</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="icon" href="FITLOGO.png" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<style>
+   
+    .wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        text-align: center; 
+    }
+
+.J,.O,.S,.E,.P,.H{
+    font-family: "Raleway", sans-serif;
+    font-weight: light;
+    font-size: 50px;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.J{
+opacity: 1;
+animation: drop 2s linear forwards 0.5s;
+color: black;
+
+}
+.O{
+opacity: 1;
+animation: drop 2.2s linear forwards 0.8s;
+color: black;
+
+}
+.S{
+opacity: 0;
+animation: drop 2.5s linear forwards 1s;
+
+color: black;
+
+}
+
+
+.E {
+opacity: 0;
+animation: drop 2.5s linear forwards 0.2s;
+
+color: black;
+
+}
+.P{
+opacity: 0;
+animation: drop 2s linear forwards 0.2s;
+
+color: black;
+
+}
+.H{
+opacity: 0;
+animation: drop 1.5s linear forwards 0.2s;
+color: black;
+
+}
+.C {
+opacity: 0;
+animation: drop .7s linear forwards 0.4s;
+color: black;
+
+}
+.O {
+opacity: 0;
+animation: drop .7s linear forwards 0.4s;
+
+color: black;
+
+}
+.r {
+opacity: 0;
+animation: drop .7s linear forwards 0.4s;
+}
+
+.s {
+    opacity: 0;
+    animation: drop .7s linear forwards 0.4s;
+    }
+
+.g {
+opacity: 0;
+animation: drop .8s linear forwards 0.4s;
+}
+.a {
+opacity: 0;
+animation: drop .9s linear forwards 0.4s;
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(-180px);
+        opacity: 0;
+    }
+    20% {
+        transform: translateY(-160px);
+        opacity: 0;
+    }
+    30% {
+        transform: translateY(-140px);
+        opacity: 0;
+    }
+    40% {
+        transform: translateY(-120px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-100px);
+        opacity: 1;
+    }
+    60% {
+        transform: translateY(-80px);
+        opacity: 1;
+    }
+    70% {
+        transform: translateY(-40px);
+        opacity: 1;
+    }
+    80% {
+        transform: translateY(-30px);
+        opacity: 1;
+    }
+    90% {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.wrapper{
+    transition: opacity 0.5s ease-in-out;
+   
+
+}
+
+  body{
+        background-color: white;
+    
+  }
+
+  .together{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: black;
+    padding-left: 20px;
+}
+
+
+</style>
+<body>
+
+    <div class="wrapper">
+        <h1 class="Assignment">
+            
+                <span class="J">J</span>
+                <span class="O">O</span>
+                <span class="S">S</span>
+                <span class="E">E</span>
+                <span class="P">P</span>
+                <span class="H">H</span>
+                <br>
+            <span class="together">
+               <span class="C">C</span>
+               <span class="o">O</span>
+               <span class="r">R</span>
+               <span class="s">S</span>
+               <span class="e">E</span>
+               <span class="g">G</span>
+               <span class="a">A</span>
+               
+            </span>
+               
+      </h1>
+     </div>
+    <script>
+        $(document).ready(function(){
+
+            $(".wrapper").fadeOut(3000);
+            setTimeout(function(){
+                window.location.href = "index.html";
+            },5000);
+           
+           })
+     
+    </script>
+    
+</body>
+</html>
