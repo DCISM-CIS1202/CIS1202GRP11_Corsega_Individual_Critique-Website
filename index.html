@@ -3,175 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>Website Critique</title>
+    <title>Loading Para Chuy</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="icon" href="FITLOGO.png" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
-<body>
-    <div class="wrapper">
-        <h1 class="PageName">
-            CORSEGA
-        </h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#answers">Answers</a></li>
-                <li><a href="#footer">Contacts</a></li>
-            </ul>
-    </div>
-    <section class="Upper">
-      <img class="IsmisImage" src="image.png" alt="IsmisImage">
-    </section>
+<style>
+   
+    .wrapper{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        text-align: center; 
+    }
 
-<section id="answers">
-
-    <div class="Intro">
-        <h2>ISMIS Webpage Critique</h2>
-        <p>
-            ISMIS has been a persistent issue for years, affecting not only students but also faculty, staff, and department heads. 
-            As the university's primary system for enrollment, grade viewing, and other essential academic processes, 
-            its performance significantly impacts our daily academic experience.
-        </p>
-        <p>
-            While ISMIS serves a critical purpose, it suffers from major usability issues. The system is often 
-            **slow, unresponsive, and prone to downtime**, making it difficult for students to access important information 
-            when needed. These inefficiencies have caused frustration among users who rely on the platform for key academic tasks.
-        </p>
-        <p>
-            Given its importance, ISMIS **needs a major overhaul**—focusing on improved performance, intuitive navigation, 
-            and better responsiveness to meet the growing demands of students and faculty alike.
-        </p>
-    </div>
+.J,.O,.S,.E,.P,.H{
+    font-family: "Raleway", sans-serif;
+    font-weight: light;
+    font-size: 50px;
     
-
-    <div class="CARDS">
-        <div class="HtmlStructure">
-            <h1>HTML STRUCTURE</h1>
-            <ul>
-                <li>Does the website use semantic HTML elements?</li>
-                <li>Is the HTML code well-organized, with proper nesting and indentation?</li>
-                <li>Are there any missing elements that could improve the structure?</li>
-            </ul>
-        </div>
-
-        <div class="HtmlStructure">
-            <h1>CSS STYLING</h1>
-            <ul>
-                <li>Is the layout visually appealing and consistent across the website?</li>
-                <li>Does the website use responsive design techniques?</li>
-                <li>Are the fonts, colors, and spacing used effectively?</li>
-            </ul>
-        </div>
-
-        <div class="HtmlStructure">
-            <h1>USABILITY</h1>
-            <ul>
-                <li>Is the website easy to navigate? Are menus and links intuitive?</li>
-                <li>Is the text readable?</li>
-                <li>Are interactive elements functional?</li>
-            </ul>
-        </div>
-
-        <div class="HtmlStructure">
-            <h1>ACCESSIBILITY</h1>
-            <ul>
-                <li>Are images and multimedia elements accompanied by appropriate alt attributes?</li>
-                <li>Can the website be navigated using a keyboard?</li>
-                <li>Does it follow WCAG (Web Content Accessibility Guidelines) standards?</li>
-            </ul>
-        </div>
-    </div> 
-</section>
-
-    <footer class="footer" id="footer">
-        <div>
-          <img src="student-thin-svgrepo-com.svg">
-            <p>JOSEPH SAMMUEL CORSEGA</p>
-            <p>18104859@usc.edu.ph</p>  
-        </div>
-
-        <div>
-            <img src="teacher-female-svgrepo-com.svg" alt="teacher">
-            <p>SUBMITTED TO:</p>
-            <p>MS. KAREN KIM TAN</p>
-        </div>
-
-        <div>
-            <img src="syllabus-svgrepo-com.svg" alt="syllabus">
-            <p>CIS 1202</p>
-            <p>WEB DEVELOPMENT I</p>
-        </div>
-        
-    </footer>
+}
 
 
+
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.J{
+opacity: 1;
+animation: drop 2s linear forwards 0.5s;
+color: black;
+
+}
+.O{
+opacity: 1;
+animation: drop 2.2s linear forwards 0.8s;
+color: black;
+
+}
+.S{
+opacity: 0;
+animation: drop 2.5s linear forwards 1s;
+
+color: black;
+
+}
+
+
+.E {
+opacity: 0;
+animation: drop 2.5s linear forwards 0.2s;
+
+color: black;
+
+}
+.P{
+opacity: 0;
+animation: drop 2s linear forwards 0.2s;
+
+color: black;
+
+}
+.H{
+opacity: 0;
+animation: drop 1.5s linear forwards 0.2s;
+color: black;
+
+}
+.C {
+opacity: 0;
+animation: drop .7s linear forwards 0.4s;
+color: black;
+
+}
+.O {
+opacity: 0;
+animation: drop .7s linear forwards 0.4s;
+
+color: black;
+
+}
+.r {
+opacity: 0;
+animation: drop .7s linear forwards 0.4s;
+}
+
+.s {
+    opacity: 0;
+    animation: drop .7s linear forwards 0.4s;
+    }
+
+.g {
+opacity: 0;
+animation: drop .8s linear forwards 0.4s;
+}
+.a {
+opacity: 0;
+animation: drop .9s linear forwards 0.4s;
+}
+
+@keyframes drop {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(-180px);
+        opacity: 0;
+    }
+    20% {
+        transform: translateY(-160px);
+        opacity: 0;
+    }
+    30% {
+        transform: translateY(-140px);
+        opacity: 0;
+    }
+    40% {
+        transform: translateY(-120px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-100px);
+        opacity: 1;
+    }
+    60% {
+        transform: translateY(-80px);
+        opacity: 1;
+    }
+    70% {
+        transform: translateY(-40px);
+        opacity: 1;
+    }
+    80% {
+        transform: translateY(-30px);
+        opacity: 1;
+    }
+    90% {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.wrapper{
+    transition: opacity 0.5s ease-in-out;
+   
+
+}
+
+  body{
+        background-color: white;
+    
+  }
+
+  .together{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: black;
+    padding-left: 20px;
+}
+
+
+</style>
+<body>
+
+    <div class="wrapper">
+        <h1 class="Assignment">
+            
+                <span class="J">J</span>
+                <span class="O">O</span>
+                <span class="S">S</span>
+                <span class="E">E</span>
+                <span class="P">P</span>
+                <span class="H">H</span>
+                <br>
+            <span class="together">
+               <span class="C">C</span>
+               <span class="o">O</span>
+               <span class="r">R</span>
+               <span class="s">S</span>
+               <span class="e">E</span>
+               <span class="g">G</span>
+               <span class="a">A</span>
+               
+            </span>
+               
+      </h1>
+     </div>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const defaultContents = {
-                html: `<h1>HTML STRUCTURE</h1><ul>
-                        <li>Does the website use semantic HTML elements?</li>
-                        <li>Is the HTML code well-organized, with proper nesting and indentation?</li>
-                        <li>Are there any missing elements that could improve the structure?</li>
-                       </ul>`,
-                css: `<h1>CSS STYLING</h1><ul>
-                        <li>Is the layout visually appealing and consistent across the website?</li>
-                        <li>Does the website use responsive design techniques?</li>
-                        <li>Are the fonts, colors, and spacing used effectively?</li>
-                       </ul>`,
-                usability: `<h1>USABILITY</h1><ul>
-                        <li>Is the website easy to navigate? Are menus and links intuitive?</li>
-                        <li>Is the text readable?</li>
-                        <li>Are interactive elements functional?</li>
-                       </ul>`,
-                accessibility: `<h1>ACCESSIBILITY</h1><ul>
-                        <li>Are images and multimedia elements accompanied by appropriate alt attributes?</li>
-                        <li>Can the website be navigated using a keyboard?</li>
-                        <li>Does it follow WCAG (Web Content Accessibility Guidelines) standards?</li>
-                       </ul>`
-            };
-        
-        
-            const newContents = {
-                html: `<div class="card-content">
-                        <h1>HTML STRUCTURE</h1>
-                        <p>ISMIS uses semantic HTML elements like <code>&lt;header&gt;</code> and <code>&lt;footer&gt;</code>, which is a good start. However, the overall code organization is cluttered—often resembling "spaghetti code"—making maintenance a challenge.</p>
-                        <p><strong>Recommendation:</strong> Refactor the code into a modular, well-structured format for improved readability and scalability.</p>
-                       </div>`,
-                 css: `<div class="card-content">
-                        <h1>CSS STYLING</h1>
-                        <p>The site’s color scheme aligns with the university’s branding, but the interface feels outdated. The spacing, typography, and responsiveness need a modern refresh to enhance usability.</p>
-                        <p><strong>Recommendation:</strong> Update the UI with improved spacing, enhanced contrast, and responsive design techniques for a sleek, modern look.</p>
-                       </div>`,
-                usability: `<div class="card-content">
-                        <h1>USABILITY</h1>
-                        <p>While long-time users are familiar with the navigation, new users struggle with too many menus and dropdowns. This overcomplicates the interface and detracts from a smooth user experience.</p>
-                        <p><strong>Recommendation:</strong> Simplify navigation by consolidating menu items into clear, intuitive categories that streamline user interaction.</p>
-                       </div>`,
-                accessibility: `<div class="card-content">
-                        <h1>ACCESSIBILITY</h1>
-                        <p>Many images are missing descriptive alt attributes and keyboard navigation support is lacking, which hinders accessibility for users with assistive needs. The site only partially meets WCAG standards.</p>
-                        <p><strong>Recommendation:</strong> Add complete alt text, enhance keyboard accessibility, and fully implement WCAG guidelines to create an inclusive experience.</p>
-                       </div>`
-            };
-        
+        $(document).ready(function(){
+
+            $(".wrapper").fadeOut(3000);
+            setTimeout(function(){
+                window.location.href = "index.html";
+            },5000);
            
-            document.querySelectorAll(".HtmlStructure").forEach(card => {
-                card.addEventListener("click", function () {
-                    let key = this.querySelector("h1").innerText.toLowerCase().split(" ")[0];
-                    
-                    // Toggle content
-                    if (this.innerHTML.includes(newContents[key])) {
-                        this.innerHTML = defaultContents[key]; 
-                    } else {
-                        this.innerHTML = newContents[key]; 
-                    }
-                });
-            });
-        });
-        
+           })
+     
     </script>
-
-
-
-
+    
 </body>
 </html>
